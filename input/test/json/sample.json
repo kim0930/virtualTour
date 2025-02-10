@@ -1,0 +1,83 @@
+{
+	"startLocation": 1,
+	"maps": [
+		{
+			"uid": 1,
+			"image": "input/test/map/sampleMap.jpg",
+			"mapSpots": [
+				{
+					"uid": 1,
+					"tooltip": "Map Spot 1",
+					"mapPosX": 2369,
+					"mapPosY": 400
+				},
+				{
+					"uid": 2,
+					"tooltip": "Map Spot 2",
+					"mapPosX": 0,
+					"mapPosY": 0
+				}
+			]
+		}
+	],
+	"locations": [
+		{
+			"uid": 1,
+			"image": {
+				"default": "input/test/panos/1.jpg",
+				"hq": "input/test/panos/1.jpg",
+				"mobile": "input/test/panos/1.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 1,
+					"tooltip": "Location 1",
+					"posX": -192.15513789819315,
+					"posY": 1.1940306291686694e-14,
+					"posZ": 33.18739187291434
+				}
+			],
+			"cameraTargets": {
+				"-1": {
+					"lat": 0,
+					"lon": 180
+				},
+				"1": {
+					"lat": 0,
+					"lon": 350.20103182417785
+				}
+			},
+			"hotspots": []
+		},
+		{
+			"uid": 2,
+			"image": {
+				"default": "input/test/panos/2.jpg",
+				"hq": "input/test/panos/2.jpg",
+				"mobile": "input/test/panos/2.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 0,
+					"tooltip": "Location 0",
+					"posX": 192.14315138591388,
+					"posY": 1.1940306291686694e-14,
+					"posZ": -33.256719253254495
+				}
+			],
+			"cameraTargets": {
+				"-1": {
+					"lat": 0,
+					"lon": 180
+				},
+				"0": {
+					"lat": 0,
+					"lon": 530.1803595164114
+				}
+			},
+			"hotspots": []
+		}
+	]
+}

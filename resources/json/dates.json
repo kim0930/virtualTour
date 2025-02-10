@@ -1,0 +1,26 @@
+{
+	"startDate": 1,
+
+	"dates": [
+		{
+			"uid": 1,
+			"date" : "2024-02-28",
+			"json_filepath": "resources/panos/2024-02-28/masterInfo.json"
+ 		}, 
+		{
+			"uid": 2,
+			"date" : "2025-01-01",
+			"json_filepath": "resources/panos/2025-01-01/masterInfo.json"
+		}, 		
+		{
+			"uid": 3,
+			"date" : "2025-01-25",
+			"json_filepath": "resources/panos/2025-01-25/masterInfo.json"
+		}, 
+		{
+			"uid": 4,
+			"date" : "2025-02-06",
+			"json_filepath": "resources/panos/2025-02-06/masterInfo.json"
+		}  
+	]
+}

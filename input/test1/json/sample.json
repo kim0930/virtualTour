@@ -1,0 +1,241 @@
+{
+	"startLocation": 1,
+	"maps": [
+		{
+			"uid": 1,
+			"image": "input/test1/map/sampleMap.jpg",
+			"mapSpots": [
+				{
+					"uid": 1,
+					"tooltip": "Map Spot 1",
+					"mapPosX": 636,
+					"mapPosY": 400
+				},
+				{
+					"uid": 2,
+					"tooltip": "Map Spot 2",
+					"mapPosX": 272,
+					"mapPosY": 338
+				},
+				{
+					"uid": 3,
+					"tooltip": "Map Spot 3",
+					"mapPosX": 0,
+					"mapPosY": 201
+				},
+				{
+					"uid": 4,
+					"tooltip": "Map Spot 4",
+					"mapPosX": 5,
+					"mapPosY": 0
+				}
+			]
+		}
+	],
+	"locations": [
+		{
+			"uid": 1,
+			"image": {
+				"default": "input/test1/panos/image1.jpg",
+				"hq": "input/test1/panos/image1.jpg",
+				"mobile": "input/test1/panos/image1.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 1,
+					"tooltip": "Location 1",
+					"posX": -192.41995052534335,
+					"posY": 1.1940306291686694e-14,
+					"posZ": 31.61586057383889
+				},
+				{
+					"target_location": 2,
+					"tooltip": "Location 2",
+					"posX": -186.3539457897582,
+					"posY": 1.1940306291686694e-14,
+					"posZ": 57.42131040465609
+				},
+				{
+					"target_location": 3,
+					"tooltip": "Location 3",
+					"posX": -165.05272699190692,
+					"posY": 1.1940306291686694e-14,
+					"posZ": 103.83928597854977
+				}
+			],
+			"cameraTargets": {
+				"-1": {
+					"lat": 0,
+					"lon": 180
+				},
+				"1": {
+					"lat": 0,
+					"lon": 350.66929725440724
+				},
+				"2": {
+					"lat": 0,
+					"lon": 342.8743454298391
+				},
+				"3": {
+					"lat": 0,
+					"lon": 327.8248541295789
+				}
+			},
+			"hotspots": []
+		},
+		{
+			"uid": 2,
+			"image": {
+				"default": "input/test1/panos/image2.jpg",
+				"hq": "input/test1/panos/image2.jpg",
+				"mobile": "input/test1/panos/image2.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 0,
+					"tooltip": "Location 0",
+					"posX": 192.54447850557187,
+					"posY": 1.1940306291686694e-14,
+					"posZ": -30.848400234329294
+				},
+				{
+					"target_location": 2,
+					"tooltip": "Location 2",
+					"posX": -174.7259128144592,
+					"posY": 1.1940306291686694e-14,
+					"posZ": 86.57860816133508
+				},
+				{
+					"target_location": 3,
+					"tooltip": "Location 3",
+					"posX": -121.70658594213073,
+					"posY": 1.1940306291686694e-14,
+					"posZ": 152.35651262191175
+				}
+			],
+			"cameraTargets": {
+				"-1": {
+					"lat": 0,
+					"lon": 180
+				},
+				"0": {
+					"lat": 0,
+					"lon": 530.8977452710415
+				},
+				"2": {
+					"lat": 0,
+					"lon": 333.64107961924964
+				},
+				"3": {
+					"lat": 0,
+					"lon": 308.6188250109721
+				}
+			},
+			"hotspots": []
+		},
+		{
+			"uid": 3,
+			"image": {
+				"default": "input/test1/panos/image3.jpg",
+				"hq": "input/test1/panos/image3.jpg",
+				"mobile": "input/test1/panos/image3.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 0,
+					"tooltip": "Location 0",
+					"posX": 186.04074167680528,
+					"posY": 1.1940306291686694e-14,
+					"posZ": -58.428096292316425
+				},
+				{
+					"target_location": 1,
+					"tooltip": "Location 1",
+					"posX": 173.90487402570147,
+					"posY": 1.1940306291686694e-14,
+					"posZ": -88.21618213289955
+				},
+				{
+					"target_location": 3,
+					"tooltip": "Location 3",
+					"posX": 5.770991325780709,
+					"posY": 1.1940306291686694e-14,
+					"posZ": 194.91458554740782
+				}
+			],
+			"cameraTargets": {
+				"-1": {
+					"lat": 0,
+					"lon": 180
+				},
+				"0": {
+					"lat": 0,
+					"lon": 522.5645427197767
+				},
+				"1": {
+					"lat": 0,
+					"lon": 513.102828892553
+				},
+				"3": {
+					"lat": 0,
+					"lon": 268.3040936771587
+				}
+			},
+			"hotspots": []
+		},
+		{
+			"uid": 4,
+			"image": {
+				"default": "input/test1/panos/image4.jpg",
+				"hq": "input/test1/panos/image4.jpg",
+				"mobile": "input/test1/panos/image4.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 0,
+					"tooltip": "Location 0",
+					"posX": 164.24744666039638,
+					"posY": 1.1940306291686694e-14,
+					"posZ": -105.10840244975776
+				},
+				{
+					"target_location": 1,
+					"tooltip": "Location 1",
+					"posX": 119.9164798432934,
+					"posY": 1.1940306291686694e-14,
+					"posZ": -153.7694308436921
+				},
+				{
+					"target_location": 2,
+					"tooltip": "Location 2",
+					"posX": -6.219444032270595,
+					"posY": 1.1940306291686694e-14,
+					"posZ": -194.90079147076202
+				}
+			],
+			"cameraTargets": {
+				"-1": {
+					"lat": 0,
+					"lon": 180
+				},
+				"0": {
+					"lat": 0,
+					"lon": 507.38322267405067
+				},
+				"1": {
+					"lat": 0,
+					"lon": 487.9487455388097
+				},
+				"2": {
+					"lat": 0,
+					"lon": 448.1722649316929
+				}
+			},
+			"hotspots": []
+		}
+	]
+}

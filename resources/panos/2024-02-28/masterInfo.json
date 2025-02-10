@@ -1,0 +1,151 @@
+{
+	"startLocation": 1,
+	"maps": [
+		{
+			"uid": 1,
+			"image": "resources/maps/sampleMap.png",
+			"mapSpots": [
+				{
+					"uid": 1,
+					"tooltip": "Map Spot 1",
+					"mapPosX": 200,
+					"mapPosY": 150
+				},
+				{
+					"uid": 2,
+					"tooltip": "Map Spot 2",
+					"mapPosX": 50,
+					"mapPosY": 60
+				},
+				{
+					"uid": 3,
+					"tooltip": "Map Spot 3",
+					"mapPosX": 75,
+					"mapPosY": 10
+				}
+			]
+		}
+	],
+	"locations": [
+		{
+			"uid": 1,
+			"image": {
+				"default": "resources/panos/2024-02-28/hq/image4.jpg",
+				"hq": "resources/panos/2024-02-28/hq/image4.jpg",
+				"mobile": "resources/panos/2024-02-28/mobile/image4.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 2,
+					"tooltip": "Location 2",
+					"posX": -192.3573119050319,
+					"posY": 1.1940306291686694e-14,
+					"posZ": 31.9947582686643
+				},
+				{
+					"target_location": 3,
+					"tooltip": "Location 3",
+					"posX": -187.47936776020228,
+					"posY": 1.1940306291686694e-14,
+					"posZ": 53.632887897584155
+				}
+			],
+			"cameraTargets": {
+				"-1": {
+					"lat": 0,
+					"lon": 180
+				},
+				"2": {
+					"lat": 0,
+					"lon": 350.5564567418122
+				},
+				"3": {
+					"lat": 0,
+					"lon": 344.0355752224459
+				}
+			},
+			"hotspots": []
+		},
+		{
+			"uid": 2,
+			"image": {
+				"default": "resources/panos/2024-02-28/hq/image2.jpg",
+				"hq": "resources/panos/2024-02-28/hq/image2.jpg",
+				"mobile": "resources/panos/2024-02-28/mobile/image2.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 1,
+					"tooltip": "Location 1",
+					"posX": 192.44124797622246,
+					"posY": 1.1940306291686694e-14,
+					"posZ": -31.485966355728383
+				},
+				{
+					"target_location": 3,
+					"tooltip": "Location 3",
+					"posX": -179.3316814749551,
+					"posY": 1.1940306291686694e-14,
+					"posZ": 76.58425438277274
+				}
+			],
+			"cameraTargets": {
+				"-1": {
+					"lat": 0,
+					"lon": 180
+				},
+				"1": {
+					"lat": 0,
+					"lon": 530.7079729651688
+				},
+				"3": {
+					"lat": 0,
+					"lon": 336.8749165791753
+				}
+			},
+			"hotspots": []
+		},
+		{
+			"uid": 3,
+			"image": {
+				"default": "resources/panos/2024-02-28/hq/image3.jpg",
+				"hq": "resources/panos/2024-02-28/hq/image3.jpg",
+				"mobile": "resources/panos/2024-02-28/mobile/image3.jpg"
+			},
+			"mapUid": 1,
+			"transitions": [
+				{
+					"target_location": 1,
+					"tooltip": "Location 1",
+					"posX": 187.6530225783701,
+					"posY": 1.1940306291686694e-14,
+					"posZ": -53.02210027150684
+				},
+				{
+					"target_location": 2,
+					"tooltip": "Location 2",
+					"posX": 179.37851167988597,
+					"posY": 1.1940306291686694e-14,
+					"posZ": -76.47450259732985
+				}
+			],
+			"cameraTargets": {
+				"-1": {
+					"lat": 0,
+					"lon": 180
+				},
+				"1": {
+					"lat": 0,
+					"lon": 524.2221521383822
+				},
+				"2": {
+					"lat": 0,
+					"lon": 516.9099772717549
+				}
+			},
+			"hotspots": []
+		}
+	]
+}
